@@ -34,7 +34,7 @@ public class Main {
         int lowTemp = 25;
         int highTemp = isSummer ? 45 : 35;
 
-        if (temp < highTemp && temp > lowTemp) {
+        if (temp <= highTemp && temp >= lowTemp) {
             return true;
         } else {
             return false;
